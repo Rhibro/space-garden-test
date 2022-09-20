@@ -97,6 +97,9 @@ footer {
     font-family: 'Orbitron';
     color: white;   
 }
+.site-map {
+    display: flex;
+}
 .site-map-btn {
     background: none;
     font-style: normal;

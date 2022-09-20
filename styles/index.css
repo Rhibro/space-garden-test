@@ -1,0 +1,18 @@
+body {
+    background: rgb(123,163,118);
+    background: linear-gradient(90deg, rgba(123,163,118,1) 18%, rgba(68,87,93,1) 65%, rgba(2,6,2,1) 100%);
+}
+header {
+    background: rgb(123,163,118);
+    background: radial-gradient(circle, rgba(123,163,118,1) 18%, rgba(68,87,93,1) 65%, rgba(2,6,2,1) 100%);
+}
+main {
+    background: rgb(123,163,118);
+    background: linear-gradient(to right,
+    rgb(123,163,118) 0%, rgb(123,163,118) 60%, rgba(68,87,93,1) 60%, rgba(68,87,93,1) 100% );
+}
+footer {
+    background: rgb(123,163,118);
+    background: linear-gradient(to right,
+    rgb(123,163,118) 0%, rgb(123,163,118) 60%, rgba(68,87,93,1) 60%, rgba(68,87,93,1) 100% );
+}

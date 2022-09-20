@@ -5,14 +5,113 @@ body {
 header {
     background: rgb(123,163,118);
     background: radial-gradient(circle, rgba(123,163,118,1) 18%, rgba(68,87,93,1) 65%, rgba(2,6,2,1) 100%);
+    height: 100px;
+    width: 1250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.top-logo {
+    display: flex;
+    align-self: flex-start;
+    margin: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-family: 'Orbitron';
+    color: white;  
+}
+.navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.nav {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-family: 'Orbitron';
+    color: white;
+    width: 152px;
+    height: 64px;
+    margin: 20px;
+    /*background: black;*/
+    background: rgb(123,163,118);
+    background: radial-gradient(circle, rgba(123,163,118,1) 18%, rgba(68,87,93,1) 65%, rgba(2,6,2,1) 100%);
+    border-radius: 50px;
+    border: none;
+}
+.nav:hover {
+    background-color: white;
+    color: black;
 }
 main {
-    background: rgb(123,163,118);
-    background: linear-gradient(to right,
-    rgb(123,163,118) 0%, rgb(123,163,118) 60%, rgba(68,87,93,1) 60%, rgba(68,87,93,1) 100% );
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    letter-spacing: 0.02em;
+    font-family: 'Orbitron';
+    color: white;
 }
+.info {
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+}
+img {
+    width: 650px;
+    height: 350px;
+    margin: 30px;
+}
+
 footer {
+    height: 100px;
+    width: 1250px;
     background: rgb(123,163,118);
-    background: linear-gradient(to right,
-    rgb(123,163,118) 0%, rgb(123,163,118) 60%, rgba(68,87,93,1) 60%, rgba(68,87,93,1) 100% );
+    background: radial-gradient(circle, rgba(123,163,118,1) 18%, rgba(68,87,93,1) 65%, rgba(2,6,2,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.bottom-logo {
+    margin: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-family: 'Orbitron';
+    color: white;   
+}
+.site-map-btn {
+    background: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-family: 'Orbitron';
+    color: white;
+    border: none;
+    margin: 20px;
+}
+.site-map-btn:hover {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
 }

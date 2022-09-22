@@ -8,12 +8,11 @@ header {
     height: 100px;
     width: 1250px;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: row;
+    /*align-items: center;*/
 }
 .top-logo {
-    display: flex;
-    align-self: flex-start;
+    /*display: flex;*/
     margin: 20px;
     font-style: normal;
     font-weight: 400;
@@ -26,8 +25,8 @@ header {
 }
 .navi {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    /*align-self: flex-end;*/
+    justify-content: flex-end;
     flex-wrap: wrap;
 }
 .nav {

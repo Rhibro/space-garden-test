@@ -2,7 +2,7 @@ body {
     /*background: rgb(123,163,118);
     background: linear-gradient(90deg, rgba(123,163,118,1) 15%, rgba(58,61,66,1) 77%, rgba(0,0,0,1) 100%);*/
     background-image: url(../images/background.png);
-    
+
 }
 header {
     /*background: rgb(123,163,118);
@@ -19,12 +19,6 @@ h4 {
     align-self: flex-start; 
     flex-wrap: wrap;
 }
-.logo-icon {
-    height: 30px;
-    width: 30px;
-    color: white;
-    margin: 20px;
-}
 .top-logo {
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +30,10 @@ h4 {
     text-align: center;
     letter-spacing: 0.02em;
     font-family: 'Orbitron';
-    color: white;  
+    color: rgb(123,163,118);  
+}
+span {
+    color: white;
 }
 .navi {
     display: flex;
@@ -130,7 +127,7 @@ footer {
     text-align: center;
     letter-spacing: 0.02em;
     font-family: 'Orbitron';
-    color: white;   
+    color: rgb(123,163,118);    
 }
 .site-map {
     display: flex;

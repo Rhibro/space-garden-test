@@ -1,13 +1,13 @@
 body {
     /*background: rgb(123,163,118);
-    background: linear-gradient(90deg, rgba(123,163,118,1) 18%, rgba(68,87,93,1) 65%, rgba(2,6,2,1) 100%);*/
-    background: rgb(123,163,118);
-    background: linear-gradient(90deg, rgba(123,163,118,1) 15%, rgba(58,61,66,1) 77%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(123,163,118,1) 15%, rgba(58,61,66,1) 77%, rgba(0,0,0,1) 100%);*/
+    background-image: url(../images/background.png);
+    
 }
 header {
     /*background: rgb(123,163,118);
     background: radial-gradient(circle, rgba(123,163,118,1) 18%, rgba(68,87,93,1) 65%, rgba(2,6,2,1) 100%);*/
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     height: 100px;
     width: 1250px;
     display: flex;
@@ -113,7 +113,7 @@ p {
 footer {
     height: 100px;
     width: 1250px;
-    border-top: 1px solid black;
+    border-top: 1px solid white;
     /*background: rgb(123,163,118);
     background: radial-gradient(circle, rgba(123,163,118,1) 18%, rgba(68,87,93,1) 65%, rgba(2,6,2,1) 100%);*/
     display: flex;
